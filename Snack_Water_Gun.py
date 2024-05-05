@@ -39,4 +39,4 @@ if a == None:
 elif a:
     print("You Win🎉")
 else:
-    print("You Lose!")
+    print("You Lose..!🙁")
