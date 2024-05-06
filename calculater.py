@@ -1,10 +1,10 @@
+
 print("1.Add")
 print("2.Sub")
 print("3.Mul")
 print("4.Div")
 print("5.Mod")
 print("0.Exit")
-
 
 ch=int(input("Enter the Choise: "))
 
@@ -44,6 +44,9 @@ elif(ch == 0):
 
 else:
      print("Invalid")
+
+     
+
 
 
 

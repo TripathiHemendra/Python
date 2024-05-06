@@ -11,7 +11,7 @@ test=["As the number of books grows in one's book collection, it would be conven
       " Most of the book's information, such as book title, author, publisher and cover picture, can be downloaded from the Internet; the user only needs to input one or more ISBNs."] 
 
 test1 = r.choice(test)
-print(" ***** Typing Speed *****")
+print(" ****** Typing Speed ******")
 print(test1)
 print()
 print()
