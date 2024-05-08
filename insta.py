@@ -2,7 +2,7 @@ from turtle import*
 
 bgcolor('white')
 pencolor("pink")
-width(23)
+width(15)
 penup()
 goto(160,-100)
 pendown()
