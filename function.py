@@ -1,8 +1,4 @@
+def my_function(fname, lname):
+  print(fname + " " + lname)
 
- 
-class Employee:
-    Company="Google"
-    def getSalary(self):
-       print("The salary is 1000000")
-       himanshu = Employee()
-       himanshu.getSalary()
+my_function("Emil", "Refsnes")
