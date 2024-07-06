@@ -7,4 +7,8 @@ if(a>b):
     else:
         print("Greater number is",c)
 else:
-    print("Greater number is",b)
+    
+    if(b>c):
+        print("Greater number is",b)
+    else:
+        print("Greater number is",c)
