@@ -1,5 +1,3 @@
-
- 
 class student:
     collage_name="PVG college"
 
@@ -11,5 +9,4 @@ class student:
 s1 = student("Himanshu","40000")
 print(s1.name)
 print(s1.fees)
-print(s1.collage_name)    
-        
+print(s1.collage_name)  
