@@ -40,3 +40,5 @@ if a%3==0:
     print(f"Yes the last degit of {num} is divisible by 3")
 else:
     print(f"The last degit of {num} is not divisible by 3")
+
+
