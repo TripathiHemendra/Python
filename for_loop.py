@@ -1,7 +1,7 @@
 a=('apple','banana','orange')
-for banana in a:
+for x in a:
  {
-  print("Yes")
+  print(x)
  }
  
 
