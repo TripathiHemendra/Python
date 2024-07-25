@@ -6,9 +6,14 @@ if(a>b):
         print("Greater number is",a)
     else:
         print("Greater number is",c)
-else:
+elif(b>a):
     
     if(b>c):
         print("Greater number is",b)
     else:
         print("Greater number is",c)
+else:
+    print("The greater number is ",c)
+    
+
+
