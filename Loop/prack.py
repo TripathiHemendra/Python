@@ -1,7 +1,12 @@
         
-p = 1
-for i in range(1,6):
-    for n in range(p):
-        print(i,end=" ")
-    p=p+1
-    print()
+# l=[2,4,5,3,6,8,5,3,5,8,3,5,4]
+# dic={}
+# for i in l:
+#     print=(i,"=",l.count(i))
+    
+l=[2,4,5,3,6,8,5,3,5,8,3,5,4]
+x= max(l)
+print(x)
+
+l.sort(reverse= True)
+print(l[6])
