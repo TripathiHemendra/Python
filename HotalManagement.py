@@ -457,7 +457,7 @@ def Payment():
                 print("  4- Cash")
                 x=int(input("-> "))
                 print("\n  Amount: ",(price[n]*day[n])+rc[n])
-                print("\n            Pay For AnCasa")
+                print("\n           Pay For AnCasa")
                 print("  (y/n)")
                 ch=str(input("->"))
                  
