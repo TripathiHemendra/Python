@@ -7,3 +7,4 @@ b=a^b
 a=a^b
 print("a after swapping",a)
 print("b after swapping",b)
+

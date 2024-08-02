@@ -4,6 +4,9 @@
 # a=l1.intersection(l2)
 # print(a)
 
-thisset = {"apple", "banana", "cherry"} 
-#del thisset 
-print(thisset)
+
+set1 = {"apple", "banana", "cherry"}
+list=list(set1)   
+print(list)
+
+

@@ -19,4 +19,5 @@ li=[1,4,3,7,4,6,0,68,54]
 a=0
 for i in li:
     a=a+i
-print(a)  
+print(a) 
+
