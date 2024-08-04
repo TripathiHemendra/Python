@@ -1,7 +1,10 @@
-s={'a','b','c'}
-print(len(s))
-
-s=[12,2,3,4,5,6,78,9,0,5,4,567,8,6,4,35,7,]
-print(s[0:11])
-
-
+class Leaf():
+    color="green"
+    def __init__(self,color):
+        self.color=color
+leaf1=Leaf("Blue")
+color1=leaf1.color
+leaf1.color="orange"
+color2=leaf1.color
+color3=Leaf.color
+print(color1+color3+color2)
