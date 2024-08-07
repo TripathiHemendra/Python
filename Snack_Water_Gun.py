@@ -29,6 +29,7 @@ elif randNo==2:
 elif randNo==3:
     comp='g'
 
+
 you = input("Your Turn: Snack(s) Water(w) Gun(g): ")
 a = game(comp, you)
 
