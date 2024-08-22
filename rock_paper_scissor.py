@@ -22,23 +22,25 @@ elif choice_machine == 2:
     print("Paper")  
 else:  
     print("Scissors")  
-    
-    if choice_user == choice_machine:  
+
+print(" You choose: ", end = " ")
+        
+if choice_user == choice_machine:  
         print(" Wow It's a tie! ")  
-    elif choice_user == 1 and choice_machine == 3:  
+elif choice_user == 1 and choice_machine == 3:  
         print(" Congratulations!! You won! ")  
-    elif choice_user == 2 and choice_machine == 1:  
+elif choice_user == 2 and choice_machine == 1:  
         print(" Congratulations!! You won! ")  
-    elif choice_user == 3 and choice_machine == 2:  
+elif choice_user == 3 and choice_machine == 2:  
         print(" Congratulations!! You won! ")  
-    else:  
+else:  
         print(" Sorry! The Machine Won the Game? ")  
   
  
-    play_again = input(" Want to Play again? ( yes / no ) ").lower()  
-    if play_again == " yes ":  
+play_again = input(" Want to Play again? ( yes / no ) ").lower()  
+if play_again == " yes ":  
         start_game()  
-    else:  
+else:  
         print(" Thanks for playing Rock-Paper-Scissors! ")  
   
  
