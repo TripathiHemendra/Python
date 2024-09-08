@@ -7,5 +7,8 @@ print(np.where(arr==7))
 
 a=np.array([2,7,5,9])
 fa=[True,False,True,False]
-new =a[fa]
+fa1=a>5
+fa2=a%2==0
+
+new =a[fa1]
 print(new)
