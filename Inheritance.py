@@ -3,9 +3,12 @@ class Person:
     self.firstname = fname
     self.lastname = lname
 
-  def printname(self):
+  def fullname(self):
     print(self.firstname, self.lastname)
 
 
-x = Person("Himanshu", "Tripathi")
-x.printname()
+class student(Person):
+  pass
+
+x = student("Himanshu", "Tripathi")
+x.fullname()

@@ -7,5 +7,10 @@ print(pd.DataFrame(data))
 
 #data from taken excel file or csv file
 
-data=pd.read_csv("customer.csv")
-data=pd.read_excel("customer.xlsx")
+#data=pd.read_csv("customer.csv")
+data2=pd.read_excel("D:\student.xlsx")
+# print(data2)
+# print(data2.info())
+#print(data2.describe())
+print(data2.isnull().sum())
+
