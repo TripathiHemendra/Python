@@ -18,3 +18,6 @@ arr_1d_reshape = arr_4d.reshape(-1)
 print(arr_1d_flatten)
 print(arr_1d_ravel)
 print(arr_1d_reshape)
+
+
+

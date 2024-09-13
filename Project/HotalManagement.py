@@ -197,7 +197,7 @@ def Booking():
         day.append(d)
           
         print("----SELECT ROOM TYPE----")
-        print(" 1. Standard Non-AC")
+        print(" 1. Standard Non-AC")  
         print(" 2. Standard AC")
         print(" 3. 3-Bed Non-AC")
         print(" 4. 3-Bed AC")
