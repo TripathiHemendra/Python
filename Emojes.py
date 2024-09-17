@@ -6,4 +6,3 @@ print("\U0001F917")
 print("\U0001F910")
 print("\U0001F617")
 print("\U0001F625")
-      

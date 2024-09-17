@@ -8,9 +8,9 @@
 # if rem==temp:
 #     print("Its palindrome")
 # else:
-#     print("Its not palindrome")
+#     print("Its not palindrome")  
 
-
+  
 import random  
   
 def start_game():  
