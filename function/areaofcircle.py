@@ -6,4 +6,4 @@ def circle(r):
 r=int(input("Enter a number: "))
 x=circle(r)
 print("factorial: ",x)
-print("Himanshu tripathi is the best boy i  ")
+print("Himanshu tripathi")
