@@ -18,3 +18,4 @@ while chance>0:
     if chance==0:
         print("Good Try but You Loose the game 😥")
 
+  

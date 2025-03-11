@@ -4,3 +4,6 @@ b=np.array([30])
 print(a)
 print(b)
 print(a+b)
+print(np.append(a,49))
+print(np.append(b,34))
+

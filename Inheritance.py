@@ -10,5 +10,5 @@ class Person:
 class student(Person):
   pass
 
-x = student("Himanshu", "Tripathi")
+x = student(" Himanshu ", "Tripathi")
 x.fullname()

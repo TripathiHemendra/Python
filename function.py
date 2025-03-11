@@ -11,3 +11,4 @@ def odd_even(n):
         
 a=int(input("enter the number: "))
 odd_even(a)
+

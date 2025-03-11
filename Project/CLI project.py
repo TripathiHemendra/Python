@@ -23,7 +23,7 @@ class ToDoList:
         print(f'Added task: "{title}"')
 
     def view_tasks(self):
-        if not self.tasks:
+        if not self.tasks: 
             print("No tasks in the list.")
         else:
             for i, task in enumerate(self.tasks, start=1):
@@ -43,7 +43,7 @@ def main():
 
     while True:
         print("\nTo-Do List Menu")
-        print("1. Add task")
+        print("\n1. Add task")
         print("2. View tasks")
         print("3. Mark task complete")
         print("4. Exit")
@@ -56,7 +56,6 @@ def main():
 
         elif choice == "2":
             todo_list.view_tasks()
-
         elif choice == "3":
             todo_list.view_tasks()
             try:
@@ -71,6 +70,8 @@ def main():
 
         else:
             print("Invalid choice. Please try again.")
+    # cd=input("Are you want again Y/N: ") 
+    # if cd=="n":
 
 
 # Entry point of the program
@@ -113,10 +114,5 @@ main()
 # Mark task complete: Marks a task as complete by entering its number.
 # Exit: Exits the program.
 # This project can be easily extended with more features like task priority, due dates, or saving tasks to a file for persistence.
-
-
-
-
-
 
 

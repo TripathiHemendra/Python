@@ -5,5 +5,8 @@ def circle(r):
 
 r=int(input("Enter a number: "))
 x=circle(r)
-print("factorial: ",x)
+print("ariaof circle: ",x)
+
 print("Himanshu tripathi")
+print(circle(5))
+  
