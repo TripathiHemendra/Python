@@ -4,3 +4,4 @@ r=requests.get(url)
 # print(r.text)
 with open("file.html", "w") as f:
     f.write(r.text)
+      

@@ -9,4 +9,3 @@ print(data)
 
 profile = ProfileReport(data)
 profile.to_file(output_file="housing.html")
-
